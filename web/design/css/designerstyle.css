@@ -1,0 +1,107 @@
+root { 
+        display: block;
+}
+
+a.linkGroup {
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        color: #114c78;
+        text-decoration: none;
+        font-weight: normal;
+}
+
+div.group1 {
+        margin-top: 3px;
+        vertical-align: middle;
+        text-align: left;
+        color: #030D3E;
+        font-weight: bold;
+        font-style: normal;
+        font-variant: normal;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+}
+
+input.dbutton {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #b9bac7;
+        background-color: #e9eaf7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100px;
+}
+
+input.dbutton:hover {
+        border-top-color: #ea6a00;
+        border-left-color: #ea6a00;
+        border-bottom-color: #ca4a00;
+        border-right-color: #ca4a00;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #d9dae7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100px;
+}
+
+em.group1 {
+        color: #030D3E;
+        font-weight: bold;
+        font-style: normal;
+        font-variant: normal;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+}
+
+em.group2 {
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        color: #313537;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+        margin-left: 30px;
+}
+
+em.group22 {
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        color: #313537;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+}
+
+em.group3 {
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        color: #3a494e;
+        font-family: Arial,Helvetica,sans-serif;
+        margin-left: 60px;
+        font-size: 12px;
+}
+
+span.hideGroup {
+        display:none;
+}
+
+td.groupcontain {
+        border-top-color: #385883;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        padding: 15px;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+
+<log4j:configuration debug="true" xmlns:log4j="http://jakarta.apache.org/log4j/">
+    
+	<!--appender name="loginout" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/miRNADesigner_usractivity.log" />
+                <param name="DatePattern" value=".yyyy-MM-dd"/>
+		<param name="threshold" value="info"/>
+		<layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{ISO8601} [%-6p] %m%n"/>
+		</layout>
+	</appender-->
+
+	<appender name="useractivity" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/miRNADesigner_usractivity.log" />
+                <param name="DatePattern" value=".yyyy-MM-dd"/>
+		<param name="threshold" value="info"/>
+		<layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{ISO8601} [%-6p] %m%n"/>
+		</layout>
+	</appender>
+        
+	<appender name="exceptionlog" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/miRNADesigner_exceptionlog.log" />
+                <param name="DatePattern" value=".yyyy-MM-dd"/>
+		<param name="threshold" value="info"/>
+		<layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{ISO8601} [%-6p] %m%n"/>
+		</layout>
+	</appender>        
+        
+	<appender name="rootlogfile" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/miRNADesigner_root.log" />
+                <param name="DatePattern" value=".yyyy-MM-dd"/>
+		<param name="threshold" value="warn"/>
+		<layout class="org.apache.log4j.PatternLayout">
+                    <param name="ConversionPattern" value="%d{ISO8601} [%-6p] %m%n"/>
+		</layout>
+	</appender>        
+        
+        <!--logger name="loginout">
+          <level value="info"/>
+          <appender-ref ref="loginout"/>
+        </logger-->
+        
+        <logger name="useractivity">
+          <level value="info"/>
+          <appender-ref ref="useractivity"/>
+        </logger>        
+
+        <logger name="exceptionlog">
+          <level value="info"/>
+          <appender-ref ref="exceptionlog"/>
+        </logger>
+        
+	<root>
+            <priority value="warn"/>
+            <appender-ref ref="rootlogfile" />
+	</root>
+        
+</log4j:configuration>

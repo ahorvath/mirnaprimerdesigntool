@@ -1,0 +1,243 @@
+>Amino acid metabolism
+>>Amino acid biosynthesis
+>>Amino acid catabolism
+>>Amino acid metabolism regulation
+>>Amino acid transport
+>>Other amino acid metabolism
+>Apoptosis
+>>Apoptotic processes
+>>Induction of apoptosis
+>>Inhibition of apoptosis
+>>Other apoptosis
+>Biological process unclassified
+>Blood circulation and gas exchange
+>>Other blood circulation and gas exchange activity
+>>Regulation of vasoconstriction, dilation
+>Carbohydrate metabolism
+>>Carbohydrate transport
+>>Disaccharide metabolism
+>>Gluconeogenesis
+>>Glycogen metabolism
+>>Glycolysis
+>>Monosaccharide metabolism
+>>Other carbohydrate metabolism
+>>Other polysaccharide metabolism
+>>Pentose-phosphate shunt
+>>Regulation of carbohydrate metabolism
+>>Tricarboxylic acid pathway
+>Cell adhesion
+>Cell cycle
+>>Cell cycle control
+>>DNA replication
+>>Mitosis
+>>>Chromosome segregation
+>>>Cytokinesis
+>>Other cell cycle process
+>Cell proliferation and differentiation
+>Cell structure and motility
+>>Cell motility
+>>Cell structure
+>Coenzyme and prosthetic group metabolism
+>>Coenzyme metabolism
+>>Other coenzyme and prosthetic group metabolism
+>>Porphyrin metabolism
+>>Pterin metabolism
+>>Vitamin metabolism
+>>>Vitamin biosynthesis
+>>>Vitamin catabolism
+>>Vitamin/cofactor transport
+>Developmental processes
+>>Anterior/posterior patterning
+>>Determination of dorsal/ventral axis
+>>Ectoderm development
+>>>Neurogenesis
+>>Embryogenesis
+>>Endoderm development
+>>Fertilization
+>>Gametogenesis
+>>>Spermatogenesis and motility
+>>>Oogenesis
+>>Meiosis
+>>Mesoderm development
+>>>Angiogenesis
+>>>Skeletal development
+>>>Hematopoiesis
+>>>Muscle development
+>>>Heart development
+>>>Lactation, mammary development
+>>>Gut mesoderm development
+>>Other developmental process
+>>Segment specification
+>>Sex determination
+>Electron transport
+>>Ferredoxin metabolism
+>>Other pathways of electron transport
+>>Oxidative phosphorylation
+>Homeostasis
+>>Calcium ion homeostasis
+>>Glucose homeostasis
+>>Growth factor homeostasis
+>>Other homeostasis activities
+>Immunity and defense
+>>Antioxidation and free radical removal
+>>B-cell- and antibody-mediated immunity
+>>Blood clotting
+>>Complement-mediated immunity
+>>Cytokine/chemokine mediated immunity
+>>Detoxification
+>>Granulocyte-mediated immunity
+>>Interferon-mediated immunity
+>>Macrophage-mediated immunity
+>>Natural killer cell mediated immunity
+>>Other immune and defense
+>>Stress response
+>>T-cell mediated immunity
+>>>MHCII-mediated immunity
+>>>MHCI-mediated immunity
+>Intracellular protein traffic
+>>Endocytosis
+>>>Pinocytosis
+>>>Receptor mediated endocytosis
+>>>Phagocytosis
+>>Exocytosis
+>>>Constitutive exocytosis
+>>>Regulated exocytosis
+>>General vesicle transport
+>>Lysosome transport
+>>Mitochondrial transport
+>>Nuclear transport
+>>Other intracellular protein traffic
+>>Peroxisome transport
+>Lipid, fatty acid and steroid metabolism
+>>Fatty acid metabolism
+>>>Fatty acid beta-oxidation
+>>>Acyl-CoA metabolism
+>>>Fatty acid biosynthesis
+>>>Fatty acid desaturation
+>>Lipid and fatty acid binding
+>>Lipid and fatty acid transport
+>>Lipid metabolism
+>>Other lipid, fatty acid and steroid metabolism
+>>Phospholipid metabolism
+>>Regulation of lipid, fatty acid and steroid metabolism
+>>Steroid metabolism
+>>>Other steroid metabolism
+>>>Cholesterol metabolism
+>>>Steroid hormone metabolism
+>>>Bile acid metabolism
+>Miscellaneous
+>Muscle contraction
+>Neuronal activities
+>>Action potential propagation
+>>Other neuronal activity
+>>Synaptic transmission
+>>>Neurotransmitter release
+>>>Neuromuscular synaptic transmission
+>>>Nerve-nerve synaptic transmission
+>Nitrogen metabolism
+>>Nitric oxide biosynthesis
+>>Nitrogen utilization
+>>Other nitrogen metabolism
+>Non-vertebrate process
+>Nucleoside, nucleotide and nucleic acid metabolism
+>>Chromatin packaging and remodeling
+>>DNA metabolism
+>>>DNA repair
+>>>DNA recombination
+>>>DNA replication
+>>>DNA degradation
+>>Metabolism of cyclic nucleotides
+>>Nucleoside, nucleotide and nucleic acid transport
+>>Other nucleoside, nucleotide and nucleic acid metabolism
+>>Pre-mRNA processing
+>>>mRNA splicing
+>>>mRNA polyadenylation
+>>>mRNA end-processing and stability
+>>>mRNA capping
+>>Purine metabolism
+>>Pyrimidine metabolism
+>>RNA catabolism
+>>RNA localization
+>>Regulation of nucleoside, nucleotide metabolism
+>>Reverse transcription
+>>mRNA transcription
+>>>mRNA transcription regulation
+>>>General mRNA transcription activities
+>>>mRNA transcription initiation
+>>>mRNA transcription termination
+>>>mRNA transcription elongation
+>>>Other mRNA transcription
+>>rRNA metabolism
+>>tRNA metabolism
+>Oncogenesis
+>>Oncogene
+>>Other oncogenesis
+>>Tumor suppressor
+>Other metabolism
+>>Other carbon metabolism
+>Phosphate metabolism
+>>Other phosphate metabolism
+>>Phosphate transport
+>>Polyphosphate biosynthesis
+>>Polyphosphate catabolism
+>>Regulation of phosphate metabolism
+>Protein metabolism and modification
+>>Amino acid activation
+>>Other protein metabolism
+>>Protein biosynthesis
+>>Protein complex assembly
+>>Protein folding
+>>Protein modification
+>>>Protein phosphorylation
+>>>Protein glycosylation
+>>>Protein-lipid modification
+>>>Protein ADP-ribosylation
+>>>Protein disulfide-isomerase reaction
+>>>Protein methylation
+>>>Protein acetylation
+>>Proteolysis
+>>Translational regulation
+>Protein targeting and localization
+>>Asymmetric protein localization
+>>Other protein targeting and localization
+>>Protein targeting
+>Sensory perception
+>>Chemosensory perception
+>>>Olfaction
+>>>Taste
+>>Hearing
+>>Other sensory perception
+>>Pain sensation
+>>Pheromone response
+>>Vision
+>Signal transduction
+>>Cell communication
+>>>Ligand-mediated signaling
+>>>Cell adhesion-mediated signaling
+>>>Extracellular matrix protein-mediated signaling
+>>>Steroid hormone-mediated signaling
+>>Cell surface receptor mediated signal transduction
+>>>Receptor protein tyrosine kinase signaling pathway
+>>>G-protein mediated signaling
+>>>Receptor protein serine/threonine kinase signaling pathway
+>>>Cytokine and chemokine mediated signaling pathway
+>>>Other receptor mediated signaling pathway
+>>Intracellular signaling cascade
+>>>Calcium mediated signaling
+>>>Other intracellular signaling cascade
+>>>MAPKKK cascade
+>>>JNK cascade
+>>>JAK-STAT cascade
+>>>NF-kappaB cascade
+>>>NO mediated signal transduction
+>>Other signal transduction
+>Sulfur metabolism
+>>Other sulfur metabolism
+>>Sulfur redox metabolism
+>Transport
+>>Extracellular transport and import
+>>Ion transport
+>>>Cation transport
+>>>Anion transport
+>>Other transport
+>>Small molecule transport

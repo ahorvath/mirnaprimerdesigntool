@@ -1,0 +1,300 @@
+/**/
+
+root { 
+    display: block;
+}
+
+.block{
+    display:block;
+}
+
+.none{
+    display:none;
+}
+
+.divloadN{
+        display: none;
+}
+
+.divloadV{
+        display: block;
+        z-index: 0;
+        width: 1000px;
+}
+
+.imgload{
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+.ToolText{
+        position:relative; 
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: normal;
+        color: black;
+        z-index: 0;
+}
+
+.ToolTexts {
+        display: none;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        color: black;
+        z-index: 0;
+}
+
+.ToolTextHover{
+        position: absolute;
+        cursor: default;   
+        position:relative;
+        font-family: Arial,Helvetica,sans-serif;
+        font-style: normal;
+        color: blue;
+        font-size: 12px;
+        font-weight: normal;
+        z-index: 1;        
+}
+
+.ToolTextHovers{
+        display:block;
+        position: absolute;
+        padding: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-top-color: #a5a693;
+        border-left-color: #a5a693;
+        border-bottom-color: #858673;
+        border-right-color: #858673;
+        top: 1.2em;
+        left:20px;
+        background-color:#FFFFCC; 
+        color:black;
+        text-align: left;
+        width: 195px;
+        direction: inherit;
+        z-index: 1000;
+        font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        font-size: 12px;
+        z-index: 1;
+}
+
+body.mainpage {
+        background-color: #EDEBED;
+        text-align: center;
+}
+
+div{
+        text-align: center;
+        display: block;
+}
+
+div.content{
+        text-align: left;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+}
+
+img.space{
+        width: 90%;
+        height: 85%;
+        border-style: none;
+        border-width: 0px;        
+}
+
+.inactive{
+        border-width: 1px;
+        border-style: solid;
+        border-color: #b9bac7;
+        background-color: #e9eaf7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+input.button{
+        border-width: 1px;
+        border-style: solid;
+        border-color: #a9aab7;
+        background-color: #e8e9f6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor:pointer;
+}
+
+input.button:hover{
+        border-top-color: #ea6a00;
+        border-left-color: #ea6a00;
+        border-bottom-color: #ca4a00;
+        border-right-color: #ca4a00;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #d9dae7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;        
+}
+
+input#field{
+        border-style:solid;
+        border-color: #ccccdd;
+        border-width: 1px;
+        padding: 2px;
+}
+
+table{
+        margin: auto;
+        border-spacing: 0px;
+        border-style: none;
+        border-width: 0px;
+        border-collapse: collapse;
+}
+
+table td{
+        padding: 0px;
+}
+
+table.contain{
+        width: 100%;
+}
+
+table.contain a {
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+        text-decoration: none;
+        border-spacing: 0px;
+}
+
+tbody#containbody td{
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #6888b8;
+        padding-bottom: 5px;
+        padding-top:5px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+table.contain th {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-variant: normal;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-left-style:none;
+        border-right-style:none;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-top-color: #2E4662;
+        border-bottom-color: #2E4662;
+        background-color: #BCC6CC;
+}
+
+table.contain td#headline1{
+        text-align: left;
+        padding-left: 10px;
+}
+
+table.contain td#headline2{
+        text-align: right;
+        padding-right: 10px;
+}
+
+td#headline1 h2{
+        margin-top: 1em;
+}
+
+table.maintable{
+        width: 1000px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #385883;
+        background-color: #ffffff;
+        border-spacing: 0px;
+}
+
+td.header1{
+        height: 50px;
+        width: 100%;
+        background-position: center;
+        background-image: url(../pics/ar_header.jpg);
+        background-repeat: no-repeat;
+        border: 0px;
+        padding: 0px;
+}
+
+td.headerUser{
+        height: 200px;
+        width: 100%;
+        background-position: center;
+        background-image: url(../pics/genom_header.jpg);
+        background-repeat: no-repeat;
+        border: 0px;
+        padding: 0px;
+}
+
+td.headerAdmin{
+        height: 200px;
+        width: 100%;
+        background-position: center;
+        background-image: url(../pics/genom_header_admin.jpg);
+        background-repeat: no-repeat;
+        border: 0px;
+        padding: 0px;
+}
+
+td.footer {
+        text-align: center;
+        vertical-align: middle;
+        height: 20px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        background-color: #131313;
+        padding: 0px;
+        border-width: 0px;
+}
+
+td.footer a{
+        text-decoration: none;
+}
+
+.recordover{
+        background-color: #d5efe3;
+}
+
+.recordout{
+        background: none;
+}
+
+textarea.tarea{
+	width: 700px;
+	height: 120px;
+	border: 1px solid #ccccdd;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+        font-size: 14px;
+}

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/intragenicdb</property>
+        <!--property name="connection.url">jdbc:postgresql://192.168.2.4:5432/intragenicdb</property-->
+        <!--property name="connection.url">jdbc:postgresql://www.kripto.hu:5432/intragenicdb</property-->
+        <property name="connection.username">intragenic</property>
+        <property name="connection.password">intragenic</property>
+        
+        <!-- JDBC connection pool (use the built-in) -->
+        <property name="connection.pool_size">10</property>
+        
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+        
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+        
+        <!--Mapping-->
+        <mapping class="org.mirna.bean.homosapiens.HomoSapiensGene" />
+        <mapping class="org.mirna.bean.homosapiens.HomoSapiensMiRNA" />
+        <mapping class="org.mirna.bean.homosapiens.HomoSapiensMiRNAInfo" />
+        <mapping class="org.mirna.bean.homosapiens.HomoSapiensMatureMiRNA" />
+
+        <mapping class="org.mirna.bean.musmusculus.MusMusculusGene" />
+        <mapping class="org.mirna.bean.musmusculus.MusMusculusMiRNA" />
+        <mapping class="org.mirna.bean.musmusculus.MusMusculusMiRNAInfo" />
+        <mapping class="org.mirna.bean.musmusculus.MusMusculusMatureMiRNA" />
+
+        <mapping class="org.mirna.bean.drosophila.DrosophilaGene" />
+        <mapping class="org.mirna.bean.drosophila.DrosophilaMiRNA" />
+        <mapping class="org.mirna.bean.drosophila.DrosophilaMiRNAInfo" />
+        <mapping class="org.mirna.bean.drosophila.DrosophilaMatureMiRNA" />
+        
+        <mapping class="org.mirna.bean.rattusnorvegicus.RattusNorvegicusGene" />
+        <mapping class="org.mirna.bean.rattusnorvegicus.RattusNorvegicusMiRNA" />
+        <mapping class="org.mirna.bean.rattusnorvegicus.RattusNorvegicusMiRNAInfo" />
+        <mapping class="org.mirna.bean.rattusnorvegicus.RattusNorvegicusMatureMiRNA" />
+        
+        <mapping class="org.mirna.designer.bean.LoginProcess" />
+        <mapping class="org.mirna.designer.bean.AuthControl" />
+        <mapping class="org.mirna.designer.bean.Userz" />
+        
+    </session-factory>
+    
+</hibernate-configuration>

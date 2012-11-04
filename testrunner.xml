@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<project name="testrunner" basedir=".">
+    <dirname property="root.dir" file="${ant.file.testrunner}" />
+    <property name="test.compile.dir" location="${root.dir}/build/test/classes"/>
+    <property name="compile.dir" location="${root.dir}/build/web/WEB-INF/classes/"/>
+    <property name="test.src.dir" location="${root.dir}/test/java"/>
+    <property name="test.jvmargs" value=""/>
+    <property name="test.report.dir" value="${root.dir}/test-reports"/>
+    <property name="lib.dir" value="${root.dir}/lib"/>
+
+    <path id="compile.classpath">
+        <fileset dir="${root.dir}/lib" includes="**/*.jar" excludes="Hibernate/*.jar" />
+    </path>
+
+    <target name="test" description="-> Runs the JUnit tests">
+        <mkdir dir="${test.report.dir}" />
+        <ant antfile="${root.dir}/build.xml" target="compile" />
+        <ant antfile="${root.dir}/build.xml" target="compile-test" />
+
+        <junit printsummary="yes" errorproperty="test.failed" 
+        failureproperty="test.failed" forkmode="perBatch"
+        showoutput="true" haltonfailure="false">
+            <formatter type="xml"/>
+            <classpath>
+                <pathelement location="${compile.dir}"/>
+                <pathelement location="${test.compile.dir}"/>
+                <path refid="compile.classpath"/>
+            </classpath>
+            <jvmarg line="${test.jvmargs}" />
+            <batchtest fork="yes" todir="${test.report.dir}">
+                <fileset dir="${test.src.dir}">
+                    <include name="**/*Test.java"/>
+                </fileset>
+            </batchtest>
+        </junit>
+
+        <junitreport todir="${test.report.dir}">
+            <fileset dir="${test.report.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${test.report.dir}/html"/>
+        </junitreport>
+
+        <fail if="test.failed">
+            Tests failed. Check ${test.report.dir}.
+        </fail>
+
+    </target>
+</project>

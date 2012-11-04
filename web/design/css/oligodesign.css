@@ -1,0 +1,111 @@
+root { 
+    display: block;
+}
+
+.oligocontain{
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: #6888b8;
+        border-bottom-style: ridge;
+        border-bottom-width: 1px;
+        border-bottom-color: #6888b8;
+        border-left-style: none;
+        border-right-style: none;
+        padding-top: 15px;
+        padding-bottom: 25px;
+}
+
+.graphmirna{
+        padding-bottom: 40px;
+        border-collapse: separate;
+}
+
+em.tail {
+        font-family: 'Courier New',Courier,monospace;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #1f244b;
+}
+
+select#upl {
+        font-family: 'Courier New',Courier,monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #000000;
+        
+        border-width: 1px;
+        border-style: solid;
+        border-color: #9595d9;
+        
+        margin-right: 10px;
+}
+
+table.oligoView {
+        width: 100%;
+        border-spacing: 0px;
+        border-collapse: separate;
+}
+
+table.similarity {
+    width:80%;
+    border-style:solid;
+    border-bottom-width:1px;
+    border-left-width:1px;
+    border-right-width:1px;
+    border-top-width:1px;
+
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    
+}
+
+tbody.oligonuc {
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-align: center;
+}
+
+tbody.oligonuc td{
+        padding-right: 5px;
+        padding-top: 5px;
+}
+
+span#uplWord{
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        font-variant: normal;
+}
+
+td.oligoViewmiRNA {
+        text-align: left;  
+        font-weight: bold;
+        color: #703c21;
+}
+
+td.oligoViewMature {
+        text-align: right;
+        font-weight: bold;
+        color: #703c21;
+}
+
+td.oligoViewCDNA {
+        font-weight: bold;
+        color: #22783c;
+}
+
+td.labelRight {
+        font-weight: bold;
+        color: #051f3c;
+        text-align: right;
+}
+
+td.dataLeft {
+        text-align: left;
+}
