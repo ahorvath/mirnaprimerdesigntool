@@ -1,1 +1,1 @@
-miRNAPrimerTool
+miRNADesignTool
