@@ -41,6 +41,9 @@ The miRNA Design Tool is based on the UPL (Universal Probe Library) probes to de
         The miRNA Design Tool is based on the UPL (Universal Probe Library) probes to design primer(s) for microRNA detection.&nbsp;
         The user gets the best result by two different Tm calculating methods.&nbsp;
         The tool designs the miRNA specific sequence of the stem-loop RT primer as well.&nbsp;
+        By using the miRNA Design Tool developed by Astrid Research You have to accept to cite the results of the tests 
+        published in PLOSONE 2012 with the following title and authors*.
+        
     </p>
     
     <br/>
@@ -118,4 +121,24 @@ The miRNA Design Tool is based on the UPL (Universal Probe Library) probes to de
     <input id="sendaction" type="hidden" name="action" value="login"/>
     <input id="sendusname" type="hidden" name="username" value=""/>
     <input id="sendpassword_data" type="hidden" name="password_data" value=""/>
+    
+     <div align ="center" style='width: 98%; margin-left: 30px;margin-right: 30px;' >  
+       <p align ="left">
+        <font size="0.5">*<u>Title:</u> <b>A versatile method to design stem-loop primer-based quantitative PCR assays for detecting small regulatory RNA molecules</b>
+        <br> 
+        <u>Authors:</u> Zsolt Czimmerer<sup>1</sup>, Hulvely Julianna<sup>2</sup>, Zoltan Simandi<sup>1</sup>, Eva Varallyay<sup>3</sup>, Zoltan Havelda<sup>3</sup>, Erzsebet Szabo<sup>1</sup>, Attila Varga<sup>2</sup>, Balazs Dezso<sup>4</sup>, Maria Balogh<sup>1</sup>, Attila Horvath<sup>1,2</sup>, Balint Domokos<sup>2</sup>, 
+        <br> Zsolt Torok<sup>2</sup>, Laszlo Nagy<sup>1,5</sup>, Balint L. Balint<sup>1,6,7</sup>
+        <br>
+        <u>Affiliations:</u>
+        <sup>1</sup>University of Debrecen, Medical and Health Science Center, Department of Biochemistry and Molecular Biology, 
+        <sup>2</sup>Astrid Research Ltd, Debrecen, 
+        <br>
+        <sup>3</sup>Agricultural Biotechnology Center, Gödöllö, 
+        <sup>4</sup>University of Debrecen, Medical and Health Science Center, Institute of Pathology, 
+        <sup>5</sup>Hungarian Academy of Sciences Apoptosis and Genomics Research Group, 
+        <sup>6</sup>University of Debrecen, Medical and Health Science Center, Clinical Genomics Center, 
+        <sup>7</sup>UD-Genomed Ltd, Debrecen
+         </font>
+       </p>
+    </div>
 </form>
